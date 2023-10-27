@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Nav from '../navbar/nav'
 import logo1 from "../assets/spartants.png"
 import logo2 from "../assets/batman2.png"
