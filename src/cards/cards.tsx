@@ -7,6 +7,8 @@ import lap from "../assets/lap.png"
 import unicorn from "../assets/unicor.jpeg"
 import Cardimg2 from "../assets/cardimg2.jpeg"
 import Cardimg3 from "../assets/cardimg3.webp"
+import Bgdiv from "../assets/bgdiv.webp"
+
 export default function cards() {
   return (
     <div className='max-w-[1300px] mx-auto'>
@@ -44,19 +46,38 @@ export default function cards() {
             </div>
         </div>
         <div className='grid
-         sm:grid-cols-3 pr-4 gap-4'>
-            <div className='w-full bg-cover  bg-center  rounded-lg' style={{backgroundImage:`url(${unicorn}) `}}>
+         sm:grid-cols-3 pr-4 gap-4 sm:my-12'>
+            <div className='w-full bg-cover hover:scale-90 duration-500 ease-in-out  bg-center  rounded-lg' style={{backgroundImage:`url(${unicorn}) `}}>
             <button className='px-2 mx-4  text-white bg-black my-3 py-0 text-[7px] rounded-full border-2 md:text-[12px] font-bold border-white uppercase'>Overview</button>
             <h1 className='text-center py-4 text-[28px] sm:text-[28px] text-white font-bold pb-12'><span className='text-emerald-500'>Z</span> BET</h1>
             </div>
-            <div className='w-full bg-cover  bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg2}) `}}>
-            <button className='px-2 mx-4  text-white bg-black my-3 py-0 text-[7px] rounded-full border-2 md:text-[12px] font-bold border-white uppercase'>Overview</button>
-            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[21px] sm:text-[23px]   font-bold mb-12 py-1 rounded-md text-black bg-green-400 '>NFT NYC BETA</h1>
+            <div className='w-full bg-cover hover:scale-90 duration-500 ease-in-out   bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg2}) `}}>
+            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[21px] sm:text-[23px]   font-bold mt-12 py-1 rounded-md text-black bg-green-400 '>NFT NYC BETA</h1>
+            <div className='flex items-end justify-end'>
 
-            </div><div className='w-full bg-cover  bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg3}) `}}>
-            <button className='mx-4 px-2  text-white bg-black my-3 py-0 text-[7px] rounded-full border-2 md:text-[12px] font-bold border-white uppercase'>Overview</button>
-            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[21px] sm:text-[23px]   font-bold mb-12 py-1 rounded-md text-white bg-black '>SEASON REWARDS</h1>
+            <button className=' mx-4  text-white  my-3    text-[7px] rounded-xl  md:text-[22px] font-bold border-white uppercase'>02_state</button>
             </div>
+
+            </div><div className='w-full hover:scale-90 duration-500 ease-in-out  bg-cover  bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg3}) `}}>
+            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[21px] md:text-[20px] lg:text-[23px]   font-bold mt-12 py-1 rounded-md text-white bg-black '>SEASON REWARDS</h1>
+            <div className='flex items-end justify-end'>
+            <button className=' mx-4  text-white  my-3  text-[7px] rounded-xl  md:text-[22px] font-bold border-white uppercase'>02_state</button>
+
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <div className='bg-cover w-full my-4 sm:my-8 sm:h-[500px] md:h-[700px] rounded-xl bg-center  h-[300px]' style={{backgroundImage:`url(${Bgdiv})`, }}>
+        <div>
+            <h1>rising the bar for web 3.0 esports</h1>
+            <div>
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+            </div>
+            <p></p>
+            <button></button>
         </div>
     </div>
     </div>

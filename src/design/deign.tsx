@@ -5,6 +5,7 @@ import logo2 from "../assets/batman2.png"
 import logo3 from "../assets/panthar.png"
 import logo4 from "../assets/jump.png"
 import video1 from "../assets/videos/video1.mp4"
+
 export default function deign() {
   return (
     <div>
