@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      font1:[ 'Roboto Slab', 'serif']
+      font1:[ 'Roboto Slab', 'serif'],
+      font2 : ['Montserrat','sans-serif']
     }
   },
   plugins: [],

@@ -27,7 +27,7 @@ export default function deign() {
             
         </div>
         <div className='max-w-[1200px] mx-auto'>
-            {/* <video className='rounded-2xl ' src={video1} autoPlay muted loop/> */}
+            <video className='rounded-2xl ' src={video1} autoPlay muted loop/>
         </div>
         <div className='max-w-[1200px] mx-auto grid sm:grid-cols-2 py-10 sm:py-20'>
             <div className='text-center sm:text-left sm:max-w-[300px] py-2 sm:py-0'>

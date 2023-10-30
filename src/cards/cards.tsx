@@ -52,14 +52,15 @@ export default function cards() {
             <h1 className='text-center py-4 text-[28px] sm:text-[28px] text-white font-bold pb-12'><span className='text-emerald-500'>Z</span> BET</h1>
             </div>
             <div className='w-full bg-cover hover:scale-90 duration-500 ease-in-out   bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg2}) `}}>
-            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[21px] sm:text-[23px]   font-bold mt-12 py-1 rounded-md text-black bg-green-400 '>NFT NYC BETA</h1>
+            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[16px] sm:text-[20px]   font-bold mt-12 py-1 rounded-md text-black bg-green-400 '>NFT NYC BETA</h1>
             <div className='flex items-end justify-end'>
 
             <button className=' mx-4  text-white  my-3    text-[7px] rounded-xl  md:text-[22px] font-bold border-white uppercase'>02_state</button>
             </div>
 
-            </div><div className='w-full hover:scale-90 duration-500 ease-in-out  bg-cover  bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg3}) `}}>
-            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[21px] md:text-[20px] lg:text-[23px]   font-bold mt-12 py-1 rounded-md text-white bg-black '>SEASON REWARDS</h1>
+            </div>
+            <div className='w-full hover:scale-90 duration-500 ease-in-out  bg-cover  bg-center  rounded-lg' style={{backgroundImage:`url(${Cardimg3}) `}}>
+            <h1 className='text-center flex items-center justify-center mx-auto px-3 w-fit my-4  text-[16px] md:text-[20px] lg:text-[23px]  tracking-tighter font-bold mt-12 py-1 rounded-md text-white bg-black '>SEASON REWARDS</h1>
             <div className='flex items-end justify-end'>
             <button className=' mx-4  text-white  my-3  text-[7px] rounded-xl  md:text-[22px] font-bold border-white uppercase'>02_state</button>
 
@@ -68,18 +69,18 @@ export default function cards() {
         </div>
 
     </div>
-    <div className='bg-cover w-full my-4 sm:my-8 sm:h-[500px] md:h-[700px] rounded-xl bg-center  h-[300px]' style={{backgroundImage:`url(${Bgdiv})`, }}>
-        <div>
-            <h1>rising the bar for web 3.0 esports</h1>
-            <div>
-                <h1></h1>
-                <h1></h1>
-                <h1></h1>
+    <div className='bg-cover w-full my-4 sm:my-8 sm:h-[500px] md:h-[700px] rounded-xl backdrop-blur-sm font-font2 bg-center   h-[300px] flex items-end justify-center' style={{backgroundImage:`url(${Bgdiv})`, }}>
+        <div className='flex flex-col items-center justify-center my-3 bac sm:my-10 backdrop-blur-sm sm:mx-3 md:mx-3   rounded-xl'>
+            <h1 className=' font-font2  text-[15px] text-center sm:text-[23px] md:text-[27px] lg:text-[33px] py-1 font-bold md:py-3'>Rising the bar for Web3.0 eSports</h1>
+            <div className='flex sm:flex-row flex-col sm:border-2 rounded-lg  items-center uppercase mx-5 ' >
+               <div className='flex px-2 py-2 '> <span className='text-[10px] font-bold text-green-600 sm:text-[20px]'>$</span> <h1 className='text-[17px] sm:text-[30px] md:text-[35px] font-bold'> 750k </h1> <span className='text-[10px] mx-2 flex justify-center items-center md:text-[16px] md:max-w-[200px]  max-w-[100px]'>2023 usd prize opertunity</span></div>
+               <div className='flex px-2 py-2 sm:border-l-2'>  <h1 className='text-[17px] sm:text-[30px] md:text-[35px] font-bold'> 20 </h1> <span className='text-[10px] mx-2  flex justify-center items-center md:text-[17px] md:max-w-[200px] max-w-[100px]'>total tournaments</span></div>
+               <div className='flex px-2 py-2 sm:border-l-2'>  <h1 className='text-[17px] sm:text-[30px] md:text-[35px] font-bold'> 6 </h1> <span className='text-[10px] mx-2  flex justify-center items-center md:text-[17px] md:max-w-[200px] max-w-[50px]'>team players</span></div>
             </div>
-            <p></p>
-            <button></button>
+            <p className='text-center text-[10px] text-zinc-300 max-w-[200px] sm:max-w-[300px] my-2 lg:max-w-[400px] sm:text-[12px]'>perion pro gaming team competes at the highest level of web3.0 eSports, for major glory and epic prize pools </p>
+            <button className='uppercase px-3 py-1 border-2 rounded-full text-[13px] font-extrabold my-2 font-font1'>learn more</button>
         </div>
     </div>
     </div>
   )
-}
+ }
