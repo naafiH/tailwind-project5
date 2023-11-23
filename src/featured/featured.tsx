@@ -1,4 +1,3 @@
-import React from 'react'
 import Cards from "../cards/cards"
 import game1 from "../assets/game1.png"
 import game2 from "../assets/game2.jpg"
